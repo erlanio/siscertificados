@@ -1,0 +1,67 @@
+.cabecalho{
+    background-color: #217341;    
+    text-align: right;
+    height: auto;
+}
+
+
+.cabecalho h1{
+    color: #eee7d8; 
+    font-size: 30px;
+    font-family: arial;
+    padding-right: 6px;
+    padding-bottom: 4px;
+}
+
+.corpo-inicio{
+    background-color: #EEE7D8;    
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+.orientacoes{
+    margin-top: 30px;
+    background-color: #fff;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.orientacoes h2{
+    text-align: center;
+    font-weight: bold;
+}
+.orientacoes p{
+    font-size: 16px;
+    text-align: center;
+}
+
+.btn-formulario{
+    padding-bottom: 10px;
+}
+
+.enviar:hover{
+    cursor: pointer;    
+
+}
+
+.cadastro-pessoa{
+    margin-top: 30px;
+    background-color: #fff;
+    text-align: left;   
+    min-height: 500px;    
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.cadastro-pessoa h2{
+    font-weight: bold;
+}
+
+.aviso-erro{
+    color: red;
+}
+
+
+

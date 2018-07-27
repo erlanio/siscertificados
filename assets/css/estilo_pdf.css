@@ -1,0 +1,51 @@
+
+
+.corpo{background:url(http://localhost/siseventos/assets/img/fundo-pdf.jpg) no-repeat center;
+}
+
+
+.titulo{
+    border-bottom: 3px solid #121212;
+    padding-top: 40px;
+}
+
+.titulo-nome{
+    background-color: #121212;
+    color: #fff;
+    padding: 4px;
+    width: 50px;
+}
+
+.atributos{
+    margin-top: 10px;
+}
+
+.tabela{
+    font-size: 16px;
+    width: 3500px;
+    width: 100%;
+}
+.tableClass { background-color: #fff; border-collapse: collapse;
+              font-family: DejaVuSansCondensed; font-size: 9pt; line-height: 1.2;
+              margin-top: 2pt; margin-bottom: 5pt; width: 100%;
+              }
+
+.theadClass { font-weight: bold; vertical-align: bottom; }
+
+.tdClass { padding-left: 4mm; vertical-align: top; text-align:left;
+           padding-right: 4mm; padding-top: 1mm; padding-bottom: 1mm;
+           border-top: 1px solid #121212;}
+
+.headerRow td, .headerRow th { background-color: #121212; color: #fff; padding: 1.0mm; }
+.linha td{
+    border: 1px solid #121212;
+    padding: 1mm;
+}
+
+.tableClass{background:url(http://localhost/siseventos/assets/img/fundo-pdf.jpg) no-repeat center;
+}
+
+
+.linha td.assinatura{
+    width: 100mm;
+}

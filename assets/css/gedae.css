@@ -1,0 +1,159 @@
+@CHARSET "ISO-8859-1";
+.navbar-static-top{
+    background-color:  #2E8B57;
+    color: #fff;
+}
+
+.navbar-brand{
+    color: #fff;
+}
+
+.nav-link-topo {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: #2E8B57;
+}
+.nav-link-topo > li {
+  position: relative;
+  display: block;
+}
+.nav-link-topo > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+.nav-link-topo > li > a:hover,
+.nav-link-topo > li > a:focus {
+  text-decoration: none;
+  background-color: #3CB371;
+}
+.nav-link-topo > li.disabled > a {
+  color: #777;
+}
+.nav-link-topo > li.disabled > a:hover,
+.nav-link-topo > li.disabled > a:focus {
+  color: #3CB371;
+  text-decoration: none;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+.nav-link-topo .open > a,
+.nav-link-topo .open > a:hover,
+.nav-link-topo .open > a:focus {
+  background-color: #3CB371;
+  border-color: #428bca;
+}
+.nav-link-topo .nav-link-topo-divider {
+  height: 1px;
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+.nav-link-topo > li > a > img {
+  max-width: none;
+}
+
+.vcenter {
+	vertical-align: bottom;
+	padding-top: 15px;
+}
+
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-top: auto;
+}
+.titulo-modal{
+    font-weight: bold;
+}
+
+.tabela-centralizado{
+    text-align:left;
+}
+
+.minicursos{
+    background-color: #f5f5f5;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.botao-modal{
+    padding-bottom:20px;
+}
+
+
+.rodape{    
+    background-color: #217341;
+    color: #eee7d8;    
+    text-align: center;
+    margin-top: 12%;
+    height: 100px;
+}
+
+.rodape p{   
+    padding-top: 30px;
+}
+
+.corpo-sub-trabalho{
+    margin-top: 20px;
+}
+
+.bloco-sub-trabalho{
+    background-color:#f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+.table-action thead {
+  display: none;
+}
+.table-action tr {
+  border-bottom: 1px solid #dddddd;
+}
+.table-action td {
+  border: 0;
+}
+
+.table-action td:not(:first-child) {
+  display: block;
+}
+}
+
+
+/*DEFINE TAMANHO MODAL*/
+.modal.modal-wide .modal-dialog {
+  min-width: 60%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+
+/* irrelevant styling */
+
+.bootstrap-tagsinput{
+    width: 100%;
+}
+
+.brasao{
+    margin-left: 20px;
+}
+
+.relatorio-table td{
+    text-align: center;
+}
+
+.impress{
+    margin-bottom: 14px;
+}
+
+.card-tamanho{
+	padding-bottom: 50px;
+}

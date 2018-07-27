@@ -1,0 +1,163 @@
+.corpo{
+    margin-left: 15%;
+}
+
+.tabela-categoria{
+    margin-top: 6px;
+}
+
+.tabela tr th i{
+    font-size: 14px;
+    margin-left: 07px;
+
+}
+
+.tabela tr th i:hover {   
+    cursor: pointer;
+}
+
+
+.btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: red;
+    cursor: inherit;
+    display: block;
+}
+
+/*DEFINE TAMANHO MODAL*/
+.modal.modal-wide .modal-dialog {
+    min-width: 50%;
+}
+.modal-wide .modal-body {
+    overflow-y: auto;
+}
+
+.img-album{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+.imagem{
+    margin-bottom: 14px;
+    border-bottom: 1px solid #297baa;
+}
+
+.buscar-arquivo{
+
+}
+
+.enviar-foto{
+
+    bottom: 100%;;
+}
+.inicio{
+    margin-top: 25px;
+}
+.bloco-upload-img{
+    margin-bottom: 40px;
+}
+.rodape{
+    background-color: #121212;
+    height: 120px;
+    margin-top: 300px;
+
+    width:100%;
+}
+
+button p{
+    font-size: 20px;
+}
+
+.folder{
+    font-size:50px;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 150px;
+    background-color:#73B3D6;      
+}
+
+.categoria-inicio{
+    font-size:50px;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 150px;
+    background-color:#E29B58;  
+}
+
+.slide-inicio{
+    font-size:50px;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 150px;
+    background-color:#74C3AF;  
+}
+
+.perfil-inicio{
+    font-size:50px;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 150px;
+    background-color: #4D5B74;
+}
+.visualizar-inicio{
+    font-size:50px;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 150px;
+    background-color: #18B65C;
+}
+.sair-inicio{
+    font-size:50px;
+    color:white;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 150px;  
+    background-color: #C85B58;
+}
+.icones-inicio{
+
+    width: 100%;    
+}
+
+.pagina-inicial{
+
+}
+
+/*DEFINE TAMANHO MODAL*/
+.modal.modal-wide .modal-dialog {
+  min-width: 60%;
+}
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+
+.centro{
+    text-align: center;
+}
